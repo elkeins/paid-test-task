@@ -17,16 +17,12 @@ const AppLayout: React.FC = () => {
         <div className="px-4 sm:px-6 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
             {/* Logo */}
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-emerald-500 to-green-600 flex items-center justify-center shadow-sm">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <circle cx="12" cy="12" r="10" />
-                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20" />
-                <path d="M2 12h20" />
-              </svg>
+            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-emerald-500 to-green-600 flex items-center justify-center shadow-sm overflow-hidden">
+              <img src="/logo.svg" alt="Soccer Tactics logo" className="w-6 h-6" />
             </div>
             <div>
               <h1 className="text-base font-bold text-gray-900 leading-tight tracking-tight">
-                Tactics Board
+                Soccer Tactics Board
               </h1>
               <p className="text-[11px] text-gray-400 leading-none">
                 Soccer Formation Planner
